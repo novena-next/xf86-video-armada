@@ -1,3 +1,18 @@
+xf86-video-armada (1.0.0-1) unstable; urgency=low
+
+  * debian: Add libdrm-armada-dev dependency 
+  * debian: Pull in libetnaviv-headers to build etnadrm 
+  * debian: Set myself as the maintainer
+  * debian: Put modules in /usr/lib/xorg/modules
+  * debian: Only build the etnadrm module
+  * Fix X11 PRESENT support
+  * etnaviv: Replace deprecated loader error code
+  * common: Fix unaccel.c failing to build without FB_24_32BIT
+  * debian: Add source/format
+  * Update to unstable-devel 29bca2637ee3c6cfe3bf6454e36d0d10e72d7243
+
+ -- Jookia <contact@jookia.org>  Tue, 31 Mar 2020 23:28:00 +1100
+
 xf86-video-armada (0.0.0-1) precise; urgency=low
 
   * Initial release
