@@ -17,6 +17,7 @@ Build-Depends:
  libdrm-dev (>= 2.4.23),
  libudev-dev [linux-any],
  dpkg-dev (>= 1.14.17),
+ libdrm-armada-dev,
  libetnaviv-headers,
  automake,
  libtool,
