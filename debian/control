@@ -1,7 +1,8 @@
 Source: xf86-video-armada
 Section: x11
 Priority: optional
-Maintainer: Russell King <rmk+cubox@arm.linux.org.uk>
+Maintainer: Jookia <contact@jookia.org>
+Homepage: https://github.com/novena-next/xf86-video-armada
 Build-Depends:
  debhelper (>= 8.1.2ubuntu2),
  dh-autoreconf,
