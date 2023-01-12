@@ -52,7 +52,7 @@ options, otherwise support will be automatically detected.
 
 The following packages are required by this driver:
 
-- libdrm-armada   git://git.armlinux.org.uk/~rmk/libdrm-armada.git/
+- libdrm-armada   https://github.com/novena-next/libdrm-armada
 
 The following packages are optional, but are required for building
 etnaviv and etnadrm:
@@ -78,7 +78,7 @@ These instructions give the exact build procedure for building
 xf86-video-armada to support the etnadrm GPU driver without the etnaviv
 and vivante GPU drivers.  This is what most people will require:
 
-$ git clone git://git.armlinux.org.uk/~rmk/libdrm-armada.git/
+$ git clone https://github.com/novena-next/libdrm-armada
 $ cd libdrm-armada
 $ mkdir m4; autoreconf -f -i
 $ ./configure --prefix=/usr
@@ -87,7 +87,7 @@ $ make install
 $ cd ..
 $ git clone https://github.com/laanwj/etna_viv.git
 $ ETNA_SRC=$PWD/etna_viv
-$ git clone git://git.armlinux.org.uk/~rmk/xf86-video-armada.git/
+$ git clone https://github.com/novena-next/xf86-video-armada
 $ cd xf86-video-armada
 $ git checkout unstable-devel
 $ ./autogen.sh --prefix=/usr --disable-vivante --disable-etnaviv \
